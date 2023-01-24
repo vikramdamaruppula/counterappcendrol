@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+  
+}
+.counter-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    padding:15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.button-container{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;   
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    font-size: 11px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    color:lightpink;
+    text-decoration: underline;
+
+}
+.black{
+    background-color: lightblue;
+    width:150px;
+    height: 25px;
+    border-radius: 5px;
+}
+.blue{
+    background-color: lightgreen;
+    width:150px;
+    height: 25px;
+    border-radius: 5px;
+}
